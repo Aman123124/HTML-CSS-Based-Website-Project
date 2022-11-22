@@ -1,0 +1,96 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+body{
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+.navbar-container
+{
+    display: flex;
+    padding-top: 20px;
+}
+.list-item
+{
+    display: inline-block;
+    margin-left: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 18px;
+    color:#7e8083 ;
+}
+
+.mic
+{
+    margin-left: 80px;
+    cursor: pointer;
+}
+
+.nav-button
+{
+    margin-left: 460px;
+    padding: 11px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 7px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    background-color:#4d3797;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.banner-container
+{
+    display: flex;
+}
+
+.heading-text
+{
+    font-size: 65px;
+    position: relative;
+    top: 55px;
+    left: 140px;
+    color: #342258;;
+}
+.imm
+{
+  position: relative;
+  top: 50px;
+}
+.description
+{
+    position: relative;
+    left: 145px;
+    top: 15px;
+    width: 350px;
+    font-size: 17px;
+    color: #7e8083;
+}
+.btn
+{
+    position: relative;
+    top: 50px;
+    left: 145px;
+    padding: 18px;
+    padding-left: 45px;
+    padding-right: 45px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    background-color: #4d3797;
+    border-radius: 10px;
+    cursor: pointer;
+}
+span{
+    color: #4e45af;;
+}
+
+.list-item:hover
+{
+    color: black;
+    cursor: pointer;
+    
+    
+}
