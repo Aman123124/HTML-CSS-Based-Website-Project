@@ -1,0 +1,150 @@
+#REGISTER FORM CREATED BY HTML AND CSS
+---------------------------------------------------------
+
+---------------------
+| HTML AND CSS CODE |
+---------------------
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="application.css">
+    <style>
+            *
+{
+    margin: 0;
+    padding: 0;
+}
+
+.container
+{
+    width: 300px;
+    margin: 0 auto;
+    background-color:aqua;
+    padding: 30px;
+    box-shadow: 2px 5px 30px;
+    margin-top:6rem;
+    
+}
+.container >div
+{
+    margin: 10px;
+    
+}
+input
+{
+    
+    padding: 10px;
+    width:15rem;
+    font-size:17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border: none;
+    text-shadow: 1px 1px  1px black; 
+    box-shadow: 4px 3px 9px black;
+    border-radius: 10px;
+    
+}
+.check
+{
+  width: 5%;
+  box-shadow:1px 1px 2px;
+}
+.radio
+{
+    width: 5%;
+    box-shadow: 1px 1px 3px;
+    margin-left:20px;
+}
+#radr
+{
+    margin-left: 60px;
+}
+button
+{
+    width:6rem;
+    margin-left: 25px;
+    margin-top:12px;
+    height: 30px; 
+    box-shadow: 1px 2px 3px;
+    font-size:15px;
+
+}
+select
+{
+    width:17rem;
+    height:2.5rem;
+    box-shadow: 1px 1px 8px;
+}
+#reg
+{
+    text-align: center;
+    font-size:2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: white;
+    box-shadow: 2px 2px 8px black;
+    text-shadow: 2px 2px 3px black;
+    width:16.3rem;
+    height: 3rem;
+}
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="reg">Register Here</div>
+        <div class="name">
+           <input type="text" placeholder="Enter your name" >
+        </div>
+        <div class="email">
+            <input type="email" placeholder="Enter your email">
+        </div>
+        <div class="number">
+            <input type="number" placeholder="Number" >
+        </div>
+        <div class="date">
+            <input type="date" name="DOB" id="">
+        </div>
+        <div class="gender">
+            <input type="radio" name="gender" class="radio"><label for=""> Male</label>
+            <input type="radio" name="gender" class="radio" id="radr"><label for="">Female</label>
+        </div>
+        <div class="password">
+            <input type="password" placeholder="Password">
+        </div>
+        <div class="password2">
+            <input type="password" placeholder="confirm Password ">
+        </div>
+      
+        <div class="country">
+            <select name="" id="">
+                <option value="">select a country</option>
+                <option value="">India</option>
+                <option value="">Bangladesh</option>
+                <option value="">Nepal</option>
+                <option value="">China</option>
+                <option value="">USA</option>
+                <option value="">Singapore</option>
+            </select>    
+        </div>
+        <div class="writing1">
+            <input type="checkbox" class="check">
+            <label for="">I agree with terms and Conditions</label>
+        </div>
+        <div class="writing2">
+            <input type="checkbox" class="check">
+            <label for="">I want to receive newsletter</label>
+        </div>
+        <div class="button">
+            <button>submit</button>
+            <button>cancel</button>
+        </div>
+
+    </div>
+</body>
+</html>
