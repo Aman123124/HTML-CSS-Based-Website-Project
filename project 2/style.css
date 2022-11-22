@@ -1,0 +1,124 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+
+.container
+{
+    background-image: url('./assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    width: 100%;
+    padding-bottom: 60px;
+
+}
+
+.navbar
+{
+    /* background-color: black; */
+    display: flex;
+    background-color: black;
+    padding: 13px;
+
+}
+
+.grow-list
+{
+    /* border-left: 1px solid white; */
+    margin-left: 20px;
+}
+
+.list
+{
+    display: flex;
+}
+
+.list li
+{
+    padding-left: 20px;
+    padding-right: 30px;
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+    padding-top: 6px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.log
+{
+    margin-left: 40px;
+}
+.bt
+{
+    margin-left: 250px;
+    margin-top: 13px;
+
+}
+
+.line
+{
+    border-left: 1px solid white;
+    margin-left: 60px;
+    
+}
+
+.button-small
+{
+   /* padding-left: 35px;
+   padding-right: 35px;
+   padding-top: 8px;
+   padding-bottom: 8px; */
+   padding-left: 35px;
+   padding-right: 35px;
+   padding-top: 9px;
+   padding-bottom: 8px;
+   font-size: 16px;
+   color: white;
+   background-color: #ca18cd ;
+   border-radius: 10px;
+}
+
+
+
+.hero-heading
+{
+    font-size: 70px;
+    width: 800px;
+    /* border: 1px solid black; */
+    margin-left: 350px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    letter-spacing: 2.5px;
+    margin-top: 97px;
+
+}
+
+span
+{
+    padding-left: 15px;
+}
+
+.hero-description
+{
+   font-size: 25px;
+   margin-left: 430px;
+   color: white;
+   /* border: 1px solid black; */
+   letter-spacing: 2px;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.button-large
+{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 530px;
+    margin-top: 30px;
+    border-radius: 10px;
+    border: none;
+    background-color:#ca18cd;
+    color: white;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
